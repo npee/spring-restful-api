@@ -6,7 +6,7 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.2.xsd">
 
-	<context:component-scan base-package="restful.controller" />
+	<context:component-scan base-package="restful.spring.index" />
 	<!--
 		base-package에 component-scan을 할 패키지 경로를 명시해주면
 		해당 경로를 포함한 모든 하위 경로에 적용되고,
